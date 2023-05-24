@@ -1,4 +1,14 @@
-prompt('What is your name?')
+// const nam = prompt('What is your name?')
+// console.log(nam)
 
+// const test = alert('Hello, John! How are you?')
+// console.log(test)
 
-alert('Hello, John! How are you?')
+const again =  prompt('What is your name?')
+
+if (again) {
+    prompt ('Hello, John! How are you?')
+}
+else {
+    prompt ('Hello, noname! How are you?')
+}
